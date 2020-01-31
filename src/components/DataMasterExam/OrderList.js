@@ -56,11 +56,7 @@ class OrderList extends React.Component {
 			details: this.state.details
 		}
 		return (
-			<div
-				data-spy='scroll'
-				data-target='#navbar-example2'
-				data-offset='0'
-			>
+			<div>
 				<ul className='ul-orders'>
 					{orders.map(order => (
 						<li key={order.id} className='li-orders'>
